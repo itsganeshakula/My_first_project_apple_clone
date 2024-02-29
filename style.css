@@ -1,0 +1,297 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: FontRegular;
+    }
+
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* NavBar */
+nav{
+    position: sticky;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    width: 100%;
+    height: 5vh;
+    background-color: #161617;
+    z-index: 50;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: #cdbfbf;
+}
+nav i{
+    font-size: 1.1vw;
+}
+/* Offer text */
+.offer{
+    height: 44px;
+    background-color: #1D1D1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 250, 241);
+}
+.offer a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+
+
+/* first image */
+.first{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url(Assets/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-position: center;
+}
+.first-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 1vh;
+    top: 10%;
+    color: #fff;
+}
+.first-text h1{
+    font-size: 3vw;
+}
+
+.first-text  p{
+    font-size: 1.6vw;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(26, 141, 242);
+    cursor: pointer;
+}
+
+/* second Image */
+.second{
+    height: 700px;
+    width: 100%;
+    background-image: url(Assets/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+}
+
+.second-text{
+    color: #333;
+}
+
+/* third video */
+
+.third{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1D1D1f;
+    height: 75vh;
+    overflow: hidden;
+    background-position: center;
+}
+.third-text{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        bottom: 10px;
+        gap: 1vh;
+        top: 10%;
+        color: #fff;
+
+}
+button{
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.buttons{
+    display: flex;
+    gap: 1vh;
+}
+/* forth */
+ .forth{
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+ }
+
+ .forth-text{
+        margin-top: 10%;
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #ffe8e8;
+ }
+                        
+ .n{
+    flex: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 490px;
+    background-color: #333;
+    
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    
+    border: 2px solid white;
+ }
+ .forth-1{
+    background-image: url(/Assets/6.jpg);
+    background-size: 100% 490px;
+    overflow: hidden;
+    border: 2px solid black;
+    
+    
+ }
+
+ .forth-2{
+    background-image: url(/Assets/2.jpg);
+    background-size: 100% 490px;
+    color: black;
+    border: 2px solid black;
+ }
+ .forth-3{
+    background-image: url(/Assets/4-1.jpg);
+    background-size: 100% 490px;
+    border: 2px solid black;
+ }
+ .forth-4{
+    background-image: url(/Assets/4-2.jpg);
+    background-size: 100% 490px;
+    border: 2px solid black;
+ }
+ .forth-5{
+    background-image: url(/Assets/4.jpg);
+    background-size: 100% 490px;
+    border: 2px solid black;
+
+ }
+ .forth-6{
+    background-image: url(/Assets/5.jpg);
+    background-size: 100% 490px;
+    border: 2px solid black;
+    
+ }
+
+
+ .text-3,.text-4{
+         color: #333;
+        
+ }
+ .text-5,.text-6{
+    
+    margin-top: 45%;
+}
+
+ 
+
+.center{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* hover part */
+.hover{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: white;
+    background-color: #161617;
+    padding: 40px;
+    
+}
+.hover ul {
+    display: inline;
+    gap: 10px;
+}
+
+#hover-parent{
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    max-height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    
+}
+
+.ancher{
+    width: 100%;
+    height: 490px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.ancher-2{
+    width: 100%;
+    height: 490px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+
